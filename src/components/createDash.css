@@ -1,0 +1,28 @@
+#fir h2{
+    font-family: 'Playfair Display', serif;
+}
+.circle-background {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* Adjust the size of the circle as needed */
+    height: 300px;
+    background-color: rgba(69, 191, 165, 0.3); /* Adjust the background color and opacity as needed */
+    border-radius: 50%;
+    z-index: -1;
+  }
+.circle-background2 {
+    content: '';
+    position: absolute;
+    top: 65%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    width: 150px; /* Adjust the size of the circle as needed */
+    height: 150px;
+    background-color: rgba(69, 191, 165, 0.3); /* Adjust the background color and opacity as needed */
+    border-radius: 50%;
+    z-index: -1;
+  }
+  
